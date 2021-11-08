@@ -1,0 +1,171 @@
+.main__content {
+  color: white;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main_row {
+  border: none;
+}
+.main__content > span {
+  font-weight: 900;
+  font-size: 200%;
+}
+.main__content > p {
+  margin-top: 10px;
+  width: 40%;
+  font-weight: 800;
+  color: rgb(171, 173, 30);
+  font-family: "Permanent Marker", "cursive";
+  font-size: 19px;
+  text-align: justify;
+}
+.main__content__extra {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.main__content__extra > img {
+  width: 30%;
+  border-radius: 30px;
+  height: 65vh;
+  opacity: 0.7;
+}
+.main__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main__about_list > li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.main__about_list > li span:nth-of-type(1) {
+  color: rgb(171, 173, 30);
+}
+
+.main__content__res {
+  color: white;
+}
+
+.main__content__res {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main__left {
+  position: -webkit-sticky;
+  position: sticky;
+  color: aliceblue;
+}
+.main__left__content {
+  color: aliceblue;
+}
+@media only screen and (max-width: 710px) {
+  .main__content > p {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main__content__extra {
+    flex-direction: row;
+  }
+  .main__content__extra > img {
+    display: none;
+  }
+}
+.main__btn {
+  text-decoration: none !important;
+  color: black !important;
+  border-radius: 25px !important;
+  width: 140px;
+  margin-left: 20px;
+  margin-top: 10px;
+  transition: transform 250ms !important;
+}
+
+.main__btn:hover {
+  transform: translateY(-10px) !important;
+}
+.line > li {
+  list-style-type: none;
+  color: #6ec5b8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.line > li > a {
+  text-decoration: none;
+
+  color: hsl(171, 43%, 60%);
+  margin-top: 10px;
+  padding: 5px;
+  font-weight: bold;
+  transition: transform 250ms;
+}
+.line > li > a:hover {
+  transform: translateY(-10px);
+}
+.main__left__content {
+  display: flex;
+  flex-direction: column;
+}
+.main__edu__row {
+  margin-top: 50px;
+}
+.main__left__content > span {
+  color: yellow;
+}
+.main__left__content .main__title {
+  color: rgb(191, 202, 36);
+  font-size: 32px;
+}
+.main__left__content .fonts {
+  font-size: 32px;
+  color: rgb(228, 211, 57);
+}
+.main__left__content .fonts > span {
+  font-size: 24px;
+  color: white;
+}
+.main__left__content .degree {
+  color: #6ec5b8;
+  font-size: 20px;
+}
+
+.main__left__content .branch {
+  color: rgb(191, 202, 36);
+  font-size: 20px;
+}
+
+.main__left__content .place {
+  color: white;
+  font-size: 20px;
+}
+
+.main__left__content .duration {
+  color: rgb(191, 202, 36);
+  font-size: 20px;
+}
+#experience {
+  margin-top: 80px;
+}
+.skills {
+  width: 40px;
+  transition: transform 250ms;
+}
+.skills:hover {
+  transform: translate(-5px, -10px) scale(1);
+}
+.main_skills {
+  color: rgb(191, 202, 36);
+  font-size: 32px;
+}

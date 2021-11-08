@@ -1,0 +1,72 @@
+.main__image {
+  width: 70%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 40px;
+  border: 2px solid rgb(128, 128, 20);
+  padding: 2px;
+}
+
+.project_row {
+  background-color: black;
+}
+.project > h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.main_project {
+  margin-top: 40px;
+  color: rgb(190, 190, 23);
+}
+.main_project > h4 {
+  margin-bottom: 20px;
+}
+.main_project > ul {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+
+  list-style: none;
+}
+.main_project > p {
+  color: hsl(171, 43%, 60%);
+}
+.main_project_list {
+  color: hsl(171, 43%, 60%);
+  font-weight: 500;
+  background-color: rgb(63, 57, 57);
+  border-radius: 25px 25px;
+  text-align: center;
+  transition: transform 250ms !important;
+  margin-bottom: 70px;
+  margin-left: 20px;
+}
+
+.main_project_list:hover {
+  transform: translateY(-10px) !important;
+}
+.btn {
+  color: hsl(171, 43%, 60%) !important ;
+  width: 180px !important;
+  margin-left: 10px;
+  border-radius: 10px !important;
+  color: aqua;
+  transition: transform 25ms ease-out !important;
+  margin-top: 20px !important;
+}
+.btn:hover {
+  color: red;
+  background-color: rgb(63, 57, 57) !important;
+  transform: translateY(-10px) !important;
+}
+/* @media only screen and (max-width: 700px) {
+  .main_project > ul {
+    flex-direction: column;
+  }
+} */
