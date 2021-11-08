@@ -12,7 +12,7 @@ const project = () => {
         <h3>My Project</h3>
         {data.map((p) => (
           <>
-            <Col lg={2} xs={2} md={2}></Col>
+            <Col lg={2} xs={2} md={2} sm={2}></Col>
             <Col lg={10} xs={10} md={10} xl={10}>
               <Row>
                 <Col lg={4} xs={12} md={6} sm={12}>
@@ -63,13 +63,11 @@ const project = () => {
                           <GitHubIcon />
                         </span>
                         GitLink -backend
-                        {/* <FontAwesomeIcon icon={faGithub} /> */}
                       </Button>
                     )}
                   </div>
                 </Col>
               </Row>
-              <hr style={{ color: "white", marginTop: "40px" }} />
             </Col>
           </>
         ))}
