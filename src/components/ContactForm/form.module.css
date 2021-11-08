@@ -34,3 +34,9 @@
 .det__wrapper > span:hover {
   transform: translateY(-10px);
 }
+.frm > h3 {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

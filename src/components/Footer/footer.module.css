@@ -37,7 +37,6 @@
   font-weight: bold;
 }
 .det__wrapper {
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;

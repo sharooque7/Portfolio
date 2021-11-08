@@ -68,6 +68,7 @@ const project = () => {
                   </div>
                 </Col>
               </Row>
+              <hr style={{ color: "white", marginTop: "40px" }} />
             </Col>
           </>
         ))}

@@ -46,6 +46,7 @@ const ContactForm = () => {
       <Col md={3} lg={3} xl={3} sm={3} xs={3}></Col>
 
       <Col md={6} lg={6} xl={6} sm={6} xs={6} className={`mt-3  ${style.frm}`}>
+        <h3 style={{ color: "white" }}>Contact Me</h3>
         <Form
           onSubmit={sendEmail}
           className={`d-flex flex-column ${style.frm}`}
