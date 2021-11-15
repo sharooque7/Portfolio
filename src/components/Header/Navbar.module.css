@@ -7,8 +7,6 @@ header {
 .str {
   top: 0;
   position: sticky !important;
-  height: calc(100vh -50px);
-  z-index: 100;
 }
 .nav__link {
   padding: 20px;
