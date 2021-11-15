@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <Navbar bg="dark" className={style.str} variant="dark" expand="md">
+    <Navbar bg="dark" sticky="top" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand>
           <Link className={style.nav__link} to="home" spy={true} smooth={true}>
