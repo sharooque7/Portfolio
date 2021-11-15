@@ -6,8 +6,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import CallIcon from "@mui/icons-material/Call";
 import product from "../../assets/product.JPG";
-import whatsApp from "../../assets/whatsapp.JPG";
-import netflix from "../../assets/netflixclone.JPG";
+import chat from "../../assets/chat.JPG";
+import socialLite from "../../assets/socialLite.JPG";
 import Zaberi from "../../assets/zabri3.JPG";
 
 const Footer = () => {
@@ -16,11 +16,14 @@ const Footer = () => {
       <Row className={`bg-dark ${style.cess} `}>
         <Col sm={12} lg={4} md={4} className={`offset-1  ${style.foot}`}>
           {" "}
-          <h3 style={{ color: "white" }}>About</h3>
+          <h3 style={{ color: "white" }}>Hobbies</h3>
           <p>
-            I am a self-driven learner. Also I like working in a team. I am
-            focusing all my effort on the impact I can leave on this world! and
-            i love working with technologies which improves creativity
+            I enjoy practising sports (Vollyeball 🏐 and football ⚽), reading
+            News 📰 and stock analysing 💹. sports give me the focus needed to
+            maintain a good work/life balance required when working in IT.
+            Globally speaking I'm always keen to learn and on finding out how to
+            further improve my skills and workflows be it when doing my hobbies
+            or working.
           </p>
         </Col>
         <Col sm={12} lg={3} md={4}>
@@ -56,12 +59,12 @@ const Footer = () => {
                 rel="noreferrer"
                 data-toggle="tooltip"
                 data-placement="top"
-                title="whatsAppClone"
-                href="https://whatsapp-clone-a8525.web.app/"
+                title="ChatApp"
+                href="https://chatappsocial.netlify.app/"
                 target="_blank"
               >
                 {" "}
-                <img src={whatsApp} className={style.img_recent} alt="" />
+                <img src={chat} className={style.img_recent} alt="" />
               </a>
             </Col>{" "}
             <Col lg={6} md={6} sm={3} xs={6} className="mr-1 mt-1 mb-1">
@@ -69,12 +72,16 @@ const Footer = () => {
                 rel="noreferrer"
                 data-toggle="tooltip"
                 data-placement="top"
-                title="NetflixClone"
-                href="https://nelfiix-clone.netlify.app/"
+                title="SocialLite"
+                href="https://sociallite.netlify.app/"
                 target="_blank"
               >
                 {" "}
-                <img src={netflix} className={style.img_recent} alt="" />
+                <img
+                  src={socialLite}
+                  className={`img-responsive ${style.img_recent}`}
+                  alt=""
+                />
               </a>
             </Col>
           </Row>

@@ -10,9 +10,9 @@ import data from "./data";
 
 const Main = () => {
   return (
-    <Row className={`pt-3 bg-dark ${style.main_row}`}>
+    <Row className={`pt-3 bg-dark ${style.main_row}`} id="AboutMe">
       <Col md={12} lg={12}>
-        <div id="AboutMe" className={style.main__content}>
+        <div className={style.main__content}>
           <span>About Me</span>
           <p>
             I am a self-driven learner. Also I like working in a team. I am
@@ -70,6 +70,7 @@ const Main = () => {
                     to="education"
                     spy={true}
                     smooth={true}
+                    offset={-100}
                   >
                     Education
                   </Link>
@@ -80,6 +81,7 @@ const Main = () => {
                     to="skills"
                     spy={true}
                     smooth={true}
+                    offset={-110}
                   >
                     Skills
                   </Link>
@@ -90,6 +92,7 @@ const Main = () => {
                     to="experience"
                     spy={true}
                     smooth={true}
+                    offset={-100}
                   >
                     Experience
                   </Link>

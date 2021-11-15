@@ -2,7 +2,8 @@ import Zaberi from "../../assets/zabri3.JPG";
 import product from "../../assets/product.JPG";
 import whatsApp from "../../assets/whatsapp.JPG";
 import netflix from "../../assets/netflixclone.JPG";
-
+import chat from "../../assets/chat.JPG";
+import socialLite from "../../assets/socialLite.JPG";
 const data = [
   {
     id: 1,
@@ -67,6 +68,33 @@ const data = [
     Frontend:
       "https://github.com/sharooque7/Netflix-clone/blob/main/package.json",
     Backend: "",
+  },
+  {
+    id: 5,
+    title: "ChatApp",
+    desc: "A Chat Application build using socket.io ",
+    src: chat,
+    library: ["ReactJS", "MongoDB", "CSS-flex", "Socket.io", "Nodejs", "Redux"],
+    liveApp: "https://chatappsocial.netlify.app/",
+    Frontend: "https://github.com/sharooque7/chatApp",
+    Backend: "https://github.com/sharooque7/chatBackend",
+  },
+  {
+    id: 6,
+    title: "SocialLite",
+    desc: "A Social media lite where user can share their post and chat with online users   ",
+    src: socialLite,
+    library: [
+      "ReactJS",
+      "MongoDB",
+      "CSS-flex",
+      "Socket.io",
+      "ContextApi",
+      "Nodejs",
+    ],
+    liveApp: "https://sociallite.netlify.app/",
+    Frontend: "https://github.com/sharooque7/socialLite",
+    Backend: "https://github.com/sharooque7/socialLiteBackend",
   },
 ];
 
