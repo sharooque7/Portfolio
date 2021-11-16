@@ -8,7 +8,7 @@ const data = [
   {
     id: 1,
     title: "ZaberiEcommerce",
-    desc: "A ecommerce application",
+    desc: "A ecommerce application .This is implemented using MERN stack.I have used Bootstrap for styling the frontend and also implemented paypal integration for payment .Used Redux for state management ",
     src: Zaberi,
     library: [
       "ReactJS",
@@ -26,7 +26,7 @@ const data = [
   {
     id: 2,
     title: "Product Manager",
-    desc: "A small CRUD application where the sellers can mange thier product",
+    desc: "A small CRUD application where the sellers can manage their product.I have used ReactJs and nodejs for front and backend respectively and MongoDB as DataBase .Material UI is used for styling",
     src: product,
     library: [
       "ReactJS",
@@ -43,8 +43,8 @@ const data = [
   },
   {
     id: 3,
-    title: "WhatsApp Clone",
-    desc: "A small clone of whatsApp where we can chat in room",
+    title: "Whatsapp Clone",
+    desc: "A small clone of whatsapp . Here we can create a room and start chatting with people in the room . I have used ReactJS for frontEnd with ContextApi for state management with google authentication and storing data in firebase  ",
     src: whatsApp,
     library: [
       "ReactJS",
@@ -61,18 +61,17 @@ const data = [
   {
     id: 4,
     title: "Netflix Clone",
-    desc: "A  clone of Netflix ",
+    desc: "A  clone of Netflix the popular streaming website . I have used TMDB Api's  to get the realtime data from internet .Here i have build only the frontend part for now with ReactJS and CSS and deployed this to firebase the backend functionality will be added later .",
     src: netflix,
     library: ["ReactJS", "Firebase", "CSS"],
     liveApp: "https://nelfiix-clone.netlify.app/",
-    Frontend:
-      "https://github.com/sharooque7/Netflix-clone/blob/main/package.json",
+    Frontend: "https://github.com/sharooque7/Netflix-clone.git",
     Backend: "",
   },
   {
     id: 5,
     title: "ChatApp",
-    desc: "A Chat Application build using socket.io ",
+    desc: "A Chat Application build using socket.io . Here i have used ReactJS for frontend and Nodejs for Backend and MongoDB as DataBase . At a time two user has to be online to start conversation and also send messages . I have used redux for state management and the layout is done using CSS-flexbox .",
     src: chat,
     library: ["ReactJS", "MongoDB", "CSS-flex", "Socket.io", "Nodejs", "Redux"],
     liveApp: "https://chatappsocial.netlify.app/",
@@ -82,7 +81,7 @@ const data = [
   {
     id: 6,
     title: "SocialLite",
-    desc: "A Social media lite where user can share their post and chat with online users   ",
+    desc: "A Social media lite where user can share their post and chat with online users .This is a full stack MERN application also uses contextApi for state management The messaging part is build using socket.io. ",
     src: socialLite,
     library: [
       "ReactJS",
