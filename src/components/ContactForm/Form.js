@@ -6,9 +6,14 @@ import ContactMailIcon from "@mui/icons-material/ContactMail";
 
 const Result = () => {
   return (
-    <p style={{ color: "white" }}>
-      The message has been sent successfully.Please wait i will revert back
-      shortly
+    <p
+      style={{
+        color: "white",
+        textAlign: "center",
+        marginTop: "10px",
+      }}
+    >
+      Thanks for contacting me ! The message has been sent successfully.
     </p>
   );
 };
@@ -18,7 +23,6 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    alert("Hi");
 
     emailjs
       .sendForm(
@@ -42,7 +46,7 @@ const ContactForm = () => {
     setState(false);
   }, 5000);
   return (
-    <Row className="bg-dark ">
+    <Row className="bg-dark " id="contact">
       <Col md={3} lg={3} xl={3} sm={3} xs={3}></Col>
 
       <Col md={6} lg={6} xl={6} sm={6} xs={6} className={`mt-3  ${style.frm}`}>

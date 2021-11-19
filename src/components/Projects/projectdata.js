@@ -8,7 +8,7 @@ const data = [
   {
     id: 1,
     title: "ZaberiEcommerce",
-    desc: "A ecommerce application .This is implemented using MERN stack.I have used Bootstrap for styling the frontend and also implemented paypal integration for payment .Used Redux for state management ",
+    desc: "An ecommerce application .This is implemented using MERN stack.I have used Bootstrap for styling the frontend and also implemented paypal integration for payment .Used Redux for state management ",
     src: Zaberi,
     library: [
       "ReactJS",

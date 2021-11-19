@@ -13,7 +13,7 @@ const HomePage = () => {
         <div className={style.home__main__wrapper}>
           <Particles height="100vh" width="100%" options={config} />
           <div className={` ${style.home__about}`}>
-            <span className={style.home__main_span1}>Hey! I am</span>
+            <span className={style.home__main_span1}>Hey!! I am</span>
             <span className={style.home__main_span2}>Mohammed Sharooque</span>
             {/* <img
               className={style.home__image}

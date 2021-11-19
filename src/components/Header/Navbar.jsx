@@ -59,6 +59,15 @@ const Header = () => {
             >
               Projects
             </Link>
+            <Link
+              className={style.nav__link}
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-80}
+            >
+              Contact
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

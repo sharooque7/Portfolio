@@ -110,7 +110,9 @@ const Main = () => {
               </span>
 
               <span className={style.degree}>Bachelor of Engineering</span>
-              <span className={style.branch}>Electrical and Electronic</span>
+              <span className={style.branch}>
+                Electrical and Electronic Engineering
+              </span>
               <span className={style.place}>Coimbatore -TamilNadu</span>
               <span className={style.duration}>2016-2020</span>
               <hr />
