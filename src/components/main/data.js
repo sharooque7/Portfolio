@@ -15,6 +15,7 @@ import gitorg from "../../assets/gitorg.png";
 import mernorg from "../../assets/mernorg.png";
 import nosql from "../../assets/nosql.png";
 import ejsorg from "../../assets/ejsorg.png";
+import next from "../../assets/nextjs.png";
 
 const data = [
   { id: 1, title: "JavaScript", src: javascript },
@@ -33,7 +34,8 @@ const data = [
   { id: 14, title: "Express", src: express },
   { id: 15, title: "MongoDB", src: mongoorg },
   { id: 16, title: "Firebase", src: firebaseorg },
-  { id: 17, title: "Mern", src: mernorg },
+  { id: 17, title: "MERN", src: mernorg },
+  { id: 18, title: "NextJS", src: next },
 ];
 
 export default data;

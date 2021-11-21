@@ -7,7 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import CallIcon from "@mui/icons-material/Call";
 import product from "../../assets/product.JPG";
 import chat from "../../assets/chat.JPG";
-import socialLite from "../../assets/socialLite.JPG";
+import next from "../../assets/next.JPG";
 import Zaberi from "../../assets/zabri3.JPG";
 import socila from "../../assets/socila.JPG";
 
@@ -36,14 +36,14 @@ const Footer = () => {
                 rel="noreferrer"
                 data-toggle="tooltip"
                 data-placement="top"
-                title="ProductManager"
-                href="https://productmanagercrud.netlify.app/"
+                title="TravelApp"
+                href="https://travel-app-gold.vercel.app/"
                 target="_blank"
                 className={style._alink}
                 className={style.__a}
               >
                 {" "}
-                <img src={product} className={style.img_recent} alt="" />
+                <img src={next} className={style.img_recent} alt="" />
               </a>
             </Col>
             <Col lg={6} md={6} sm={6} xs={6} className={style.boxp}>
