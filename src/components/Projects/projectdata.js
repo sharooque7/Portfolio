@@ -1,5 +1,5 @@
 import Zaberi from "../../assets/zabri3.JPG";
-import product from "../../assets/product.JPG";
+import next from "../../assets/next.JPG";
 import whatsApp from "../../assets/whatsapp.JPG";
 import netflix from "../../assets/netflixclone.JPG";
 import chat from "../../assets/chat.JPG";
@@ -25,21 +25,21 @@ const data = [
   },
   {
     id: 2,
-    title: "Product Manager",
-    desc: "A small CRUD application where the sellers can manage their product.I have used ReactJs and nodejs for front and backend respectively and MongoDB as DataBase .Material UI is used for styling",
-    src: product,
+    title: "Trave App",
+    desc: "A small CRUD application where the travel enthusiast can post and edit the places that they admire.I have used NEXTJS for this implementation .This app will help others to plan their trip",
+    src: next,
     library: [
-      "ReactJS",
-      "NodeJs",
-      "ContextApi",
+      "React JS",
+      "Node Js",
+      "NEXT JS",
       "materialUI",
       "CSS",
       "NoSQL",
       "MongoDB",
     ],
-    liveApp: "https://productmanagercrud.netlify.app/",
-    Frontend: "https://github.com/sharooque7/ProductManager-FrontEnd",
-    Backend: "https://github.com/sharooque7/ProductManagerBackend",
+    liveApp: "https://travel-app-gold.vercel.app/",
+    Frontend: "https://github.com/sharooque7/TravelApp.git",
+    Backend: "https://github.com/sharooque7/TravelApp.git",
   },
   {
     id: 3,
