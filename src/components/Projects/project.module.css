@@ -1,6 +1,6 @@
 .main__image {
   width: 70%;
-  height: 60vh;
+  height: 70vh;
   object-fit: cover;
   border-radius: 15px;
   margin-top: 40px;
@@ -16,12 +16,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .main_project {
   margin-top: 40px;
   margin-right: 20px;
   color: rgb(190, 190, 23);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly !important;
 }
 .main_project > h4 {
   margin-bottom: 20px;
@@ -37,6 +41,8 @@
 }
 .main_project > p {
   color: hsl(171, 43%, 60%);
+  width: 90%;
+  text-align: justify;
 }
 .main_project_list {
   color: hsl(171, 43%, 60%);
@@ -60,14 +66,165 @@
   color: aqua;
   transition: transform 25ms ease-out !important;
   margin-top: 20px !important;
+  margin-right: 20px;
 }
 .btn:hover {
   color: red;
   background-color: rgb(63, 57, 57) !important;
   transform: translateY(-10px) !important;
 }
-/* @media only screen and (max-width: 700px) {
-  .main_project > ul {
+/* .main_project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.main__pro {
+  margin: 0;
+}
+
+.main_project_list {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 440px) {
+  .main_project > p {
+    text-align: justify;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .main_project {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main__image {
+    width: 80% !important;
+  }
+
+  .ima {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .main__image {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+  }
+  .main_project_list {
+    margin-left: 16px !important;
+    border-radius: 25px;
+    width: 100px !important;
+    margin-bottom: 10px;
+  }
+}
+
+/* @media only screen and (max-width: 385px) {
+  .main__pro {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-content: center !important;
+    justify-content: center !important;
   }
 } */
+/* @media only screen and (max-width: 768px) {
+  .project > h3 {
+    font-size: 200%;
+  }
+  .main__image {
+    width: 80%;
+    height: 65vh;
+  }
+  .main_project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_project > p {
+    font-size: 21px;
+    width: 100%;
+    margin-right: 20px;
+    padding-right: 20px;
+    text-align: justify;
+  }
+  .main__image {
+    width: 40%;
+    margin-left: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .main_project_list {
+    margin: 10px;
+    width: 27%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_project > h4 {
+    font-size: 25px;
+  }
+  .main_project_list {
+    width: 100%;
+  }
+  .main__pro {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+@media only screen and (max-width: 992px) {
+  .main__image {
+    height: 63vh;
+    width: 70%;
+  }
+  .main_project_list {
+    margin: 10px;
+  }
+  .main__image {
+    height: 70vh;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 652px) {
+  .main__image {
+    height: 75vh;
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main__image {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main__pro {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+}

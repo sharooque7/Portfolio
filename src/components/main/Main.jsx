@@ -11,7 +11,7 @@ import data from "./data";
 const Main = () => {
   return (
     <Row className={`pt-3 bg-dark ${style.main_row}`} id="AboutMe">
-      <Col md={12} lg={12}>
+      <Col md={12} lg={12} xl={12}>
         <div className={style.main__content}>
           <span>About Me</span>
           <p>
@@ -24,7 +24,7 @@ const Main = () => {
           <img src={shar} alt="profilePhoto" />
           <div className={style.main__details}>
             <ul className={style.main__about_list}>
-              <li className="d-flex justify-content-between">
+              <li>
                 <span>Name:</span>
                 <span>Mohammed Sharooque</span>
               </li>
@@ -53,7 +53,7 @@ const Main = () => {
               href="https://drive.google.com/file/d/1VWi2J7lE_9pb4YX4W-HxA5Haq4iTm7fo/view"
               target="_blank"
               variant="link"
-              className={`btn-warning ${style.main__btn}`}
+              className={`btn-success ${style.main__btn}`}
             >
               Download CV
             </Button>
@@ -61,8 +61,8 @@ const Main = () => {
         </div>
         <hr />
         <Row className={style.main__edu__row}>
-          <Col lg={3} sm={12} md={3} xl={3}>
-            <div className={style.main__left}>
+          <Col lg={1} sm={12} md={1} xl={1}>
+            {/* <div className={style.main__left}>
               <ul className={style.line}>
                 <li>
                   <Link
@@ -98,9 +98,9 @@ const Main = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </Col>
-          <Col lg={9} md={9} xl={9} sm={12}>
+          <Col lg={11} md={11} xl={11} sm={12}>
             <div id="education" className={style.main__left__content}>
               <span className={style.main__title}>Education</span>
               <span className={style.fonts}>
@@ -118,7 +118,7 @@ const Main = () => {
               <hr />
             </div>
             <div className={style.main__left__content}>
-              <span className={style.main__title}>Education</span>
+              {/* <span className={style.main__title}>Education</span> */}
               <span className={style.fonts}>
                 {" "}
                 <FontAwesomeIcon icon={faUniversity} />{" "}
@@ -133,7 +133,7 @@ const Main = () => {
             </div>
             <div
               id="experience"
-              style={{ marginTop: "80px" }}
+              style={{ marginTop: "40px" }}
               className={style.main__left__content}
             >
               <span className={style.main__title}>Experience</span>
@@ -148,7 +148,7 @@ const Main = () => {
               <hr />
             </div>
             <div className={style.main__left__content}>
-              <span className={style.main__title}>Experience</span>
+              {/* <span className={style.main__title}>Experience</span> */}
               <span className={style.fonts}>
                 {" "}
                 <FontAwesomeIcon icon={faBriefcase} /> <span>Intern</span>
@@ -158,7 +158,7 @@ const Main = () => {
               <span className={style.duration}>Jan 2020 - June 2020</span>
               <hr />
             </div>
-            <Row id="skills">
+            <Row id="skills" className={style.__skill}>
               <span
                 className={style.main_skills}
                 style={{
@@ -172,7 +172,7 @@ const Main = () => {
                 <Col key={d.id} className="col grow mt-3" lg={2} md={2} sm={2}>
                   <button
                     type="Link"
-                    class="btn "
+                    class="btn"
                     data-toggle="tooltip"
                     data-placement="top"
                     title={d.title}

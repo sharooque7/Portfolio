@@ -10,22 +10,47 @@ const project = () => {
     <>
       <Row className={`bg-dark ${style.project}`} id="projects">
         <h3>My Project</h3>
+
         {data.map((p) => (
           <>
-            <Col lg={2} xs={2} md={2} sm={2}></Col>
-            <Col lg={10} xs={10} md={10} xl={10}>
+            <Col md={1} xs={1} lg={1} xl={1} sm={1}></Col>
+            <Col
+              lg={11}
+              xs={12}
+              md={11}
+              xl={11}
+              sm={11}
+              className={style.__pdata}
+            >
               <Row>
-                <Col lg={4} xs={12} md={6} sm={12}>
+                <Col
+                  lg={4}
+                  xl={4}
+                  sm={6}
+                  xs={12}
+                  md={6}
+                  // sm={12}
+                  className={style.ima}
+                >
                   <img src={p.src} alt="" className={style.main__image} />
                 </Col>
-                <Col lg={8} xs={12} md={6} sm={12}>
+                <Col lg={8} xl={8} xs={12} md={6} sm={6}>
                   <div className={style.main_project}>
                     <h4>{p.title}</h4>
                     <p>{p.desc} </p>
 
-                    <Row>
+                    <Row className={style.main__pro}>
                       {p.library.map((skill) => (
-                        <Col className={style.main_project_list}>{skill}</Col>
+                        <Col
+                          lg={2}
+                          xl={2}
+                          xs={4}
+                          md={3}
+                          sm={4}
+                          className={style.main_project_list}
+                        >
+                          {skill}
+                        </Col>
                       ))}
                     </Row>
                     <Button
@@ -68,7 +93,7 @@ const project = () => {
                   </div>
                 </Col>
               </Row>
-              <hr style={{ color: "white", marginTop: "40px" }} />
+              <hr style={{ color: "white" }} />
             </Col>
           </>
         ))}

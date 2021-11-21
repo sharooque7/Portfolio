@@ -46,33 +46,79 @@ const ContactForm = () => {
     setState(false);
   }, 5000);
   return (
-    <Row className="bg-dark " id="contact">
-      <Col md={3} lg={3} xl={3} sm={3} xs={3}></Col>
+    <Row className="bg-dark" id="contact">
+      <Col md={1} lg={1} xl={1} xs={1} sm={1}></Col>
 
-      <Col md={6} lg={6} xl={6} sm={6} xs={6} className={`mt-3  ${style.frm}`}>
-        <h3 style={{ color: "white" }}>Contact Me</h3>
+      <Col
+        md={10}
+        sm={10}
+        lg={10}
+        xl={10}
+        sm={10}
+        xs={10}
+        className={`mt-3  ${style.frms}`}
+      >
+        <h3 style={{ color: "white" }} className={style.__head}>
+          Contact Me
+        </h3>
         <Form
           onSubmit={sendEmail}
-          className={`d-flex flex-column ${style.frm}`}
+          className={`${style.frm}`}
+          md={10}
+          sm={10}
+          lg={10}
+          xl={10}
+          sm={10}
         >
-          <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
-            <Form.Label column sm="2" style={{ color: "white" }}>
+          <Form.Group
+            as={Row}
+            md={12}
+            sm={10}
+            lg={10}
+            xl={10}
+            sm={10}
+            className={`mb-3 ${style.__forn_width} d-flex justify-content-center`}
+            controlId="formPlaintextEmail"
+          >
+            <Form.Label
+              column
+              md={1}
+              lg={1}
+              xl={1}
+              className={style.__label}
+              style={{ color: "white" }}
+            >
               Name
             </Form.Label>
-            <Col sm="10">
+            <Col md={9} lg={9} xl={9}>
               <Form.Control
                 type="text"
                 placeholder="Your name"
                 name="name"
                 required
+                className={style.__input}
               />
             </Col>
           </Form.Group>
-          <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
-            <Form.Label column sm="2" style={{ color: "white" }}>
+          <Form.Group
+            as={Row}
+            md={12}
+            lg={12}
+            xl={12}
+            className={`mb-3 ${style.__forn_width} d-flex justify-content-center`}
+            controlId="formPlaintextEmail"
+          >
+            <Form.Label
+              column
+              md={1}
+              lg={1}
+              xl={1}
+              className={style.__label}
+              style={{ color: "white" }}
+            >
               Email
             </Form.Label>
-            <Col sm="10">
+            <Col md={9} lg={9} xl={9}>
               <Form.Control
                 type="email"
                 name="emailid"
@@ -82,11 +128,26 @@ const ContactForm = () => {
             </Col>
           </Form.Group>
 
-          <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
-            <Form.Label column sm="2" style={{ color: "white" }}>
+          <Form.Group
+            as={Row}
+            md={12}
+            lg={12}
+            xl={12}
+            className={`mb-3 ${style.__forn_width} d-flex justify-content-center`}
+            controlId="formPlaintextEmail"
+            controlId="formPlaintextEmail"
+          >
+            <Form.Label
+              column
+              md={1}
+              lg={1}
+              xl={1}
+              className={style.__label}
+              style={{ color: "white" }}
+            >
               Message
             </Form.Label>
-            <Col sm="10">
+            <Col md={9} lg={9} xl={9}>
               <Form.Control
                 as="textarea"
                 name="message"
@@ -100,20 +161,21 @@ const ContactForm = () => {
           <Button
             type="submit"
             variant="outline-warning"
-            className={`offset-5 ${style.btn}`}
+            className={` ${style.__btn}`}
           >
-            <ContactMailIcon sx={{ marginRight: "10px" }} />
-            Contact Me
+            <span>
+              {" "}
+              <ContactMailIcon sx={{ marginRight: "10px" }} />
+              Contact Me
+            </span>
           </Button>
         </Form>
         {state ? <Result /> : null}
       </Col>
-      <Row>
+      {/* <Row>
         <Col></Col>
-        <Col lg={12}>
-          <hr style={{ color: "white", marginTop: "30px" }} />
-        </Col>
-      </Row>
+        <Col lg={12}><hr style={{ color: "white" }} /></Col>
+      </Row> */}
     </Row>
   );
 };

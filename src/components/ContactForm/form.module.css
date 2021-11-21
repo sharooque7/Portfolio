@@ -1,4 +1,4 @@
-.btn {
+.__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
   transition: transform 25ms ease-out !important;
   margin-top: 20px !important;
 }
-.btn:hover {
+.__btn:hover {
   color: red;
   background-color: rgb(63, 57, 57) !important;
   transform: translateY(-10px) !important;
@@ -34,9 +34,87 @@
 .det__wrapper > span:hover {
   transform: translateY(-10px);
 }
-.frm > h3 {
+.frm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.frms > h3 {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.frms {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 440px) {
+  .__head {
+    text-align: center;
+  }
+  .__label {
+    display: flex;
+    justify-content: center;
+  }
+  .__btn {
+    width: 80% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .__btn > span {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .frm {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .__head {
+    text-align: center;
+  }
+
+  .__btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .__btn > span {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .frm {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  /* .frms {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  } */
+}
+@media only screen and (max-width: 992px) {
+  .frms {
+    margin-bottom: 30px;
+  }
+  .foot {
+    margin-top: 20px;
+  }
+  .__form {
+    width: 100%;
+  }
+}
+.__forn_width {
+  width: 100%;
 }

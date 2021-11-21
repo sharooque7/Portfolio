@@ -76,3 +76,8 @@
     text-align: center;
   }
 }
+@media only screen and (max-width: 626px) {
+  .home__main_span2 {
+    text-align: center;
+  }
+}

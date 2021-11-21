@@ -9,12 +9,14 @@ import product from "../../assets/product.JPG";
 import chat from "../../assets/chat.JPG";
 import socialLite from "../../assets/socialLite.JPG";
 import Zaberi from "../../assets/zabri3.JPG";
+import socila from "../../assets/socila.JPG";
 
 const Footer = () => {
   return (
     <>
       <Row className={`bg-dark ${style.cess} `}>
-        <Col sm={12} lg={4} md={4} className={`offset-1  ${style.foot}`}>
+        <hr style={{ marginTop: "10px", color: "white" }} />
+        <Col sm={12} xs={12} lg={4} md={4} xl={4} className={` ${style.foot}`}>
           {" "}
           <h3 style={{ color: "white" }}>Hobbies</h3>
           <p>
@@ -26,10 +28,10 @@ const Footer = () => {
             or working.
           </p>
         </Col>
-        <Col sm={12} lg={3} md={4}>
+        <Col sm={12} lg={4} md={4} xs={12} className={style.__pname}>
           <h3 style={{ color: "white" }}>Recent Projects</h3>
           <Row className={style.corr}>
-            <Col lg={6} md={6} sm={3} xs={6} className="mr-1 mt-1 mb-1">
+            <Col lg={6} md={6} sm={6} xs={6} className={style.boxp}>
               <a
                 rel="noreferrer"
                 data-toggle="tooltip"
@@ -37,12 +39,14 @@ const Footer = () => {
                 title="ProductManager"
                 href="https://productmanagercrud.netlify.app/"
                 target="_blank"
+                className={style._alink}
+                className={style.__a}
               >
                 {" "}
                 <img src={product} className={style.img_recent} alt="" />
               </a>
             </Col>
-            <Col lg={6} md={6} sm={3} xs={6} className="mr-1 mt-1 mb-1">
+            <Col lg={6} md={6} sm={6} xs={6} className={style.boxp}>
               <a
                 rel="noreferrer"
                 data-toggle="tooltip"
@@ -50,11 +54,12 @@ const Footer = () => {
                 title="ZaberiEcommerce"
                 href="https://zaberi.netlify.app/"
                 target="_blank"
+                className={style.__a}
               >
                 <img src={Zaberi} className={style.img_recent} alt="" />
               </a>
             </Col>{" "}
-            <Col lg={6} md={6} sm={3} xs={6} className="mr-1 mt-1 mb-1">
+            <Col lg={6} md={6} sm={6} xs={6} className={style.boxp}>
               <a
                 rel="noreferrer"
                 data-toggle="tooltip"
@@ -62,12 +67,13 @@ const Footer = () => {
                 title="ChatApp"
                 href="https://chatappsocial.netlify.app/"
                 target="_blank"
+                className={style.__a}
               >
                 {" "}
                 <img src={chat} className={style.img_recent} alt="" />
               </a>
             </Col>{" "}
-            <Col lg={6} md={6} sm={3} xs={6} className="mr-1 mt-1 mb-1">
+            <Col lg={6} md={6} sm={6} xs={6}>
               <a
                 rel="noreferrer"
                 data-toggle="tooltip"
@@ -75,10 +81,11 @@ const Footer = () => {
                 title="SocialLite"
                 href="https://sociallite.netlify.app/"
                 target="_blank"
+                className={style.__a}
               >
                 {" "}
                 <img
-                  src={socialLite}
+                  src={socila}
                   className={`img-responsive ${style.img_recent}`}
                   alt=""
                 />
@@ -86,17 +93,18 @@ const Footer = () => {
             </Col>
           </Row>
         </Col>
-        <Col sm={12} lg={4} md={3}>
+        <Col sm={12} lg={4} md={3} xs={12}>
           {" "}
           <div className={style.det}>
             <div className={style.det__wrapper}>
               <h3 style={{ color: "white" }}>Get In Touch </h3>
               <EmailIcon sx={{ color: "white", fontSize: "32px" }}></EmailIcon>
-              Mail Me
+              <span> Mail Me</span>
               <span style={{ color: "hsl(171, 43%, 60%)" }}>
                 sharooquethoufiq@gmail.com
               </span>
-              <CallIcon sx={{ color: "white", fontSize: "32px" }} /> Call Me At
+              <CallIcon sx={{ color: "white", fontSize: "32px" }} />{" "}
+              <span>Call Me At</span>
               <span style={{ color: "hsl(171, 43%, 60%)" }}>
                 +91--- 9790683688
               </span>
@@ -131,7 +139,7 @@ const Footer = () => {
               href="https://github.com/sharooque7"
               target="_blank"
             >
-              <GitHubIcon style={{ fontSize: "35px" }} className={style.git} />
+              <GitHubIcon className={style.git} />
             </a>
           </Col>
         </Row>
