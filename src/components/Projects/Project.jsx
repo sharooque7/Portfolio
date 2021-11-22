@@ -15,11 +15,11 @@ const project = () => {
           <>
             <Col md={1} xs={1} lg={1} xl={1} sm={1}></Col>
             <Col
-              lg={11}
-              xs={12}
-              md={11}
-              xl={11}
-              sm={11}
+              lg={10}
+              xs={10}
+              md={10}
+              xl={10}
+              sm={10}
               className={style.__pdata}
             >
               <Row>
@@ -95,6 +95,7 @@ const project = () => {
               </Row>
               <hr style={{ color: "white" }} />
             </Col>
+            <Col md={1} xs={1} lg={1} xl={1} sm={1}></Col>
           </>
         ))}
       </Row>

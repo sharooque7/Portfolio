@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Button } from "react-bootstrap";
 import style from "./main.module.css";
-import shar from "../../assets/shar.jpg";
+import shar from "../../assets/ia.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUniversity } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
@@ -61,7 +61,7 @@ const Main = () => {
         </div>
         <hr />
         <Row className={style.main__edu__row}>
-          <Col lg={1} sm={12} md={1} xl={1}>
+          <Col lg={1} sm={1} md={1} xl={1} xs={1}>
             {/* <div className={style.main__left}>
               <ul className={style.line}>
                 <li>
@@ -100,7 +100,7 @@ const Main = () => {
               </ul>
             </div> */}
           </Col>
-          <Col lg={11} md={11} xl={11} sm={12}>
+          <Col lg={10} md={10} xl={10} sm={10} xs={10}>
             <div id="education" className={style.main__left__content}>
               <span className={style.main__title}>Education</span>
               <span className={style.fonts}>
@@ -183,6 +183,7 @@ const Main = () => {
               ))}
             </Row>
           </Col>
+          <Col lg={1} md={1} xl={1} sm={1} xs={1}></Col>
         </Row>
       </Col>
     </Row>
