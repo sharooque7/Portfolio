@@ -50,7 +50,7 @@ const Main = () => {
               </li>
             </ul>
             <Button
-              href="https://drive.google.com/file/d/1VWi2J7lE_9pb4YX4W-HxA5Haq4iTm7fo/view"
+              href="https://drive.google.com/file/d/179wuyvNxntKAMyU2urVIfMIhG3gRKq20/view?usp=sharing"
               target="_blank"
               variant="link"
               className={`btn-success ${style.main__btn}`}
