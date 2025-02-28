@@ -11,7 +11,6 @@ const Header = () => {
           <Link className={style.nav__link} to="home" spy={true} smooth={true}>
             Mohammed Sharooque
           </Link>
-          {/* <a href="#AboutMe">Home</a> */}
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -32,26 +31,6 @@ const Header = () => {
 
             <Link
               className={style.nav__link}
-              to="AboutMe"
-              spy={true}
-              smooth={true}
-              offset={-80}
-            >
-              About
-            </Link>
-
-            <Link
-              className={style.nav__link}
-              to="skills"
-              spy={true}
-              smooth={true}
-              offset={-80}
-            >
-              Skills
-            </Link>
-
-            <Link
-              className={style.nav__link}
               to="projects"
               spy={true}
               smooth={true}
@@ -59,9 +38,30 @@ const Header = () => {
             >
               Projects
             </Link>
+
             <Link
               className={style.nav__link}
-              to="contact"
+              to="profiles"
+              spy={true}
+              smooth={true}
+              offset={-80}
+            >
+              About
+            </Link>
+
+            {/* <Link
+              className={style.nav__link}
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-80}
+            >
+              Skills
+            </Link> */}
+
+            <Link
+              className={style.nav__link}
+              to="footer"
               spy={true}
               smooth={true}
               offset={-80}

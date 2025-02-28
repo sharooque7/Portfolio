@@ -13,13 +13,14 @@ const Main = () => {
     <Row className={`pt-3 bg-dark ${style.main_row}`} id="AboutMe">
       <Col md={12} lg={12} xl={12}>
         <div className={style.main__content}>
-          <span>About Me</span>
+          <h2>About Me</h2>
           <p>
             I am a self-driven learner. Also I like working in a team. I am
             focusing all my effort on the impact I can leave on this world! and
             i love working with technologies which improves creativity
           </p>
         </div>
+        {/*
         <div className={style.main__content__extra}>
           <img src={shar} alt="profilePhoto" />
           <div className={style.main__details}>
@@ -59,7 +60,7 @@ const Main = () => {
             </Button>
           </div>
         </div>
-        <hr />
+        <hr /> */}
         <Row className={style.main__edu__row}>
           <Col lg={1} sm={1} md={1} xl={1} xs={1}>
             {/* <div className={style.main__left}>
@@ -101,7 +102,7 @@ const Main = () => {
             </div> */}
           </Col>
           <Col lg={10} md={10} xl={10} sm={10} xs={10}>
-            <div id="education" className={style.main__left__content}>
+            {/* <div id="education" className={style.main__left__content}>
               <span className={style.main__title}>Education</span>
               <span className={style.fonts}>
                 {" "}
@@ -116,10 +117,10 @@ const Main = () => {
               <span className={style.place}>Coimbatore -TamilNadu</span>
               <span className={style.duration}>2016-2020</span>
               <hr />
-            </div>
-            <div className={style.main__left__content}>
+            </div> */}
+            {/* <div className={style.main__left__content}>
               {/* <span className={style.main__title}>Education</span> */}
-              <span className={style.fonts}>
+            {/* <span className={style.fonts}>
                 {" "}
                 <FontAwesomeIcon icon={faUniversity} />{" "}
                 <span>Lisieux Matriculation Higher Secondary School</span>
@@ -129,9 +130,9 @@ const Main = () => {
               <span className={style.branch}>Computer Science</span>
               <span className={style.place}>Coimbatore -TamilNadu</span>
               <span className={style.duration}>2014-2016</span>
-              <hr />
-            </div>
-            <div
+              <hr /> */}
+            {/* </div> */}
+            {/* <div
               id="experience"
               style={{ marginTop: "40px" }}
               className={style.main__left__content}
@@ -146,19 +147,19 @@ const Main = () => {
               <span className={style.degree}>Accenture Pvt Ltd</span>
               <span className={style.duration}>Oct 2020 - Present</span>
               <hr />
-            </div>
-            <div className={style.main__left__content}>
-              {/* <span className={style.main__title}>Experience</span> */}
-              <span className={style.fonts}>
+            </div> */}
+            {/* <div className={style.main__left__content}> */}
+            {/* <span className={style.main__title}>Experience</span> */}
+            {/* <span className={style.fonts}>
                 {" "}
                 <FontAwesomeIcon icon={faBriefcase} /> <span>Intern</span>
-              </span>
+              </span> */}
 
-              <span className={style.degree}>AthenaHealth Pvt Ltd</span>
-              <span className={style.duration}>Jan 2020 - June 2020</span>
-              <hr />
-            </div>
-            <Row id="skills" className={style.__skill}>
+            {/* <span className={style.degree}>AthenaHealth Pvt Ltd</span>
+              <span className={style.duration}>Jan 2020 - June 2020</span> */}
+            {/* <hr /> */}
+            {/* </div> */}
+            {/* <Row id="skills" className={style.__skill}>
               <span
                 className={style.main_skills}
                 style={{
@@ -181,7 +182,7 @@ const Main = () => {
                   </button>
                 </Col>
               ))}
-            </Row>
+            </Row> */}
           </Col>
           <Col lg={1} md={1} xl={1} sm={1} xs={1}></Col>
         </Row>

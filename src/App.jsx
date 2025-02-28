@@ -7,6 +7,7 @@ import Main from "./components/main/Main";
 
 import Project from "./components/Projects/Project";
 import ContactForm from "./components/ContactForm/Form";
+import Blogs from "./components/blogs/Social";
 
 const App = () => {
   return (
@@ -14,9 +15,11 @@ const App = () => {
       <Header />
       <Container fluid>
         <HomePage />
-        <Main />
+        {/* <Main /> */}
         <Project />
-        <ContactForm />
+        <Blogs />
+
+        {/* <ContactForm /> */}
         <Footer />
       </Container>
     </>
